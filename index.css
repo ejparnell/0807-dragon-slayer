@@ -1,0 +1,49 @@
+.game-board-container {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.landing-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+#game-board {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unit {
+    height: 150px;
+    border: solid;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 2px;
+}
+
+.dragon {
+    order: -1;
+    width: 75%;
+}
+
+#message-board {
+    display: flex;
+    justify-content: center;
+}

@@ -5,15 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./index.css" rel="stylesheet" />
     <script src="./index.js" defer></script>
     <title>Dragon Slayer</title>
 </head>
 
 <body>
-    <h1>Dragon Slayer</h1>
-    <div id="game-board"></div>
-    <button>Play Game</button>
+    <div class="landing-container">
+        <h1>Dragon Slayer</h1>
+        <button id="start-game">Play Game</button>
+    </div>
+    <div class="game-board-container hide">
+        <div id="message-board"></div>
+        <div id="game-board">
+            <button id="play-game">Attack Dragon</button>
+        </div>
+        
+    </div>
 </body>
 
 </html>
